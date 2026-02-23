@@ -13,7 +13,7 @@ grayscaler.o: grayscaler.c ppm.h
 ppm.o: ppm.c ppm.h
 
 clean:
-	rm -f $(OBJS)
+	rm -f $(OBJS) copygoat.ppm graygoat.ppm
 
 pristine: clean
 	rm -f $(TARGET)
